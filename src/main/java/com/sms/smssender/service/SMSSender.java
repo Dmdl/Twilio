@@ -30,7 +30,7 @@ public class SMSSender {
         headers.add("Authorization", "Basic " + Base64.getEncoder().encodeToString(userAndPass.getBytes()));
 
         MultiValueMap<String, String> map = new LinkedMultiValueMap<>();
-        map.add("Body", "\u200Apå de elementära .");
+        map.add("Body", "\u200Apå de elementära පරීක්ෂණ වචනය .");
         map.add("From", "+15614754307");
 //        map.add("To", "+94771544792");
         map.add("To", "+94710611810");
